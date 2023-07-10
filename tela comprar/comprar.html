@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="comprar.css">
+</head>
+<body>
+    <div id="conteiner">
+        <div id="cima">
+            <div id="logo">
+                <img src="WhatsApp Image 2023-06-22 at 20.32 4.png" alt="" id="cambioFloripa">
+            </div>
+            <div id="vazio">
+
+            </div>
+            <div id="servicos">
+                <button id="home">Home</button>
+                <button id="moedas">Moedas</button>
+                <button id="cadastro">Cadastro</button>
+            </div>
+            <div id="vazioDireita">
+
+            </div>
+        </div>
+        <div id="linha">
+
+        </div>
+        <div id="interacao">
+            <div id="esquerda">
+               <div id="esquerda-cima">
+                    <label id="pagamento">Opções de pagamento</label>
+               </div>
+               <div id="esquerda-meio">
+                    <div id="div-cartao">
+                        <input type="radio" name="rdbtn" id="cartao"><label class="label-pagamento">Cartão de crédito</label>
+                        <img src="image 1.png" alt="">
+                    </div>
+                    <div id="div-pix">
+                        <input type="radio" name="rdbtn" id="pix"><label class="label-pagamento">Pix</label>
+                        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="16" height="16" viewBox="0 0 16 16" fill="none">
+                            <path d="M0 0H16V16H0V0Z" fill="url(#pattern0)"/>
+                            <defs>
+                                <pattern id="pattern0" patternContentUnits="objectBoundingBox" width="1" height="1">
+                                    <use xlink:href="#image0_347_253" transform="scale(0.00515464)"/>
+                                </pattern>
+                                <image id="image0_347_253" width="200" height="200" xlink:href="data:image/png;base64,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"/>
+                            </defs>
+                        </svg>
+                    </div> 
+                    <div id="div-boleto">
+                        <input type="radio" name="rdbtn" id="boleto"><label class="label-pagamento">Boleto</label>
+                    </div>  
+               </div>
+               <div id="esquerda-baixo">
+                    <input type="checkbox" id="checkbox-confirmar">
+                    <label for="checkbox-confirmar">Confirmar operação</label>
+               </div>
+            </div>
+            <div id="direita">
+                <div id="direita-cima">
+
+                </div>
+                <div id="direita-meio">
+                    <div id="direita-interacao">
+                        <div id="tipo-operacao">
+                            <label id="texto-operacao">Tipo de operação:</label>
+                        </div>
+                        <div id="pagar">
+                            <label class="labels">Valor a pagar:R$</label>
+                        </div>
+                        <div id="receber">
+                            <label class="labels">Valor a receber:R$</label>
+                        </div>
+                        <div id="casa">
+                            <label class="labels">Total da casa:R$</label>
+                        </div>
+                        <div id="iof">
+                            <label class="labels">IOF:R$</label>
+                        </div>
+                        <div id="vazio-interacao">
+
+                        </div>
+                    </div>
+                    <div id="direita-vazio">
+
+                    </div>
+                </div>
+                <div id="direita-baixo">
+                    <div id="botao">
+                        <button id="finalizar">Finalizar</button>
+                    </div>
+                    <div id="baixo-vazio"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
