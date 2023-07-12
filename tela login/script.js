@@ -1,0 +1,1 @@
+vetorUsers = JSON.parse(localStorage.getItem('usuarioSalvo'))
