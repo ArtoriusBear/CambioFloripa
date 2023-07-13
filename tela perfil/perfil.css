@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@600&display=swap');
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: "Inter",sans-serif;
+}
+
+html{
+    height: 100%;
+}
+body{
+    background-color: brown;
+    height: 100%;
+    margin: 0px;
+}
+
+#conteiner{
+    height: 100%;
+    width: 100%;
+    background-color: yellow;
+}
+
+#cima{
+    height: 12.8%;
+    width: 100%;
+    background-color: forestgreen;
+    display: flex;
+}
+
+#logo{
+    height: 100%;
+    width: 15%;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    display: flex;
+}
+
+#vazio{
+    height: 100%;
+    width: 40%;
+    background-color: white;
+}
+
+#servicos{
+    height: 100%;
+    width: 30%;
+    background-color: white;
+    align-items: center;
+    justify-content: space-evenly;
+    display: flex;
+}
+
+#home{
+    height: 45px;
+    width: 90px;
+    border: none;
+    background: none;
+    font-size: x-large;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+#moedas{
+    height: 45px;
+    width: 100px;
+    border: none;
+    background: none;
+    font-size: x-large;
+    cursor: pointer;
+}
+
+#cadastro{
+    height: 45px;
+    width: 120px;
+    border: none;
+    background: none;
+    font-size: x-large;
+    cursor: pointer;
+}
+
+#vazioDireita{
+    height: 100%;
+    width: 15%;
+    background-color: white;
+}
+
+#linha{
+    height: 0.2%;
+    width: 100%;
+    background-color: black;
+}
+
+#vazio-cima{
+    height: 10%;
+    width: 100%;
+    background-color: #CCE4CC;
+}
+
+#interacao{
+    height: 67%;
+    width: 100%;
+    background-color: red;
+    display: flex;
+}
+
+#esquerda{
+    height: 100%;
+    width: 30%;
+    background-color: white;
+}
+
+#div-nome{
+    height: 20%;
+    width: 100%;
+    background-color: seagreen;
+}
+
+#div-email{
+    height: 20%;
+    width: 100%;
+    background-color: rosybrown;
+}
+
+#div-cpf{
+    height: 20%;
+    width: 100%;
+    background-color: bisque;
+}
+
+#div-nacionalidade{
+    height: 20%;
+    width: 100%;
+    background-color: royalblue;
+}
+
+#div-data{
+    height: 20%;
+    width: 100%;
+    background-color: red;
+}
+
+/* #div-redefinir{
+    
+} */
+
+#meio{
+    height: 100%;
+    width: 40%;
+    background-color: wheat;
+}
+
+#direita{
+    height: 100%;
+    width: 30%;
+    background-color: white;
+}
+
+#vazio-baixo{
+    height: 10%;
+    width: 100%;
+    background-color: #CCE4CC;
+}
