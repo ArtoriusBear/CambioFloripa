@@ -1,0 +1,436 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Câmbio Floripa</title>
+    <link rel="stylesheet" href="PaginaServicos.css">
+</head>
+<body>
+    <div id="container">
+           
+        <div id="cima">
+            <div id="topoEsquerdo">                
+                <img src="LogoCambioFloripa.png"  width="214px" height="38px">
+            </div>
+        
+            <div id="topoDireita">
+                <div id="Vazio">
+                    
+                </div>
+                <div id="Home" class="DivBotaoMenu">
+                    
+                    <button onclick="navegarParaPaginaDeDestinoIni()" class="BotoesMenu">Home</button>
+                    
+                </div>
+                <div id="Moedas" class="DivBotaoMenu">
+                    
+                    <button onclick="" class="BotoesMenu">Moedas</button>
+                    
+                </div>
+                <div id="Cadastro" class="DivBotaoMenu">
+                    
+                    <button onclick="navegarParaPaginaDeDestinoCad()" class="BotoesMenu">Cadastro</button>
+                    
+                </div>
+                
+            </div>
+        </div>
+        <div id="bordinha">      
+  
+        </div>
+
+        <div id="baixo">
+
+   
+            <div id="esquerda">
+
+                <div id="comprar">
+
+                    <img src="Rectangle 39.png" src="comprar.png" class="retangulos">
+                    <img src="comprar.png" class="icones">
+                    <button onclick="mostrarCompra()" class="BotoesSer">Comprar</button>
+
+                </div>
+
+                <div id="vender">
+
+                    <img src="Rectangle 39.png" class="retangulos">
+                    <img src="vender.png" class="icones">
+                    <button onclick="mostrarVenda()" class="BotoesSer">Vender</button>
+
+                </div>
+
+                <div id="retirada">
+
+                    <img src="Rectangle 39.png" class="retangulos">
+                    <img src="retirada.png" class="icones">
+                    <button onclick="mostrarRetirada()" class="BotoesSer">Retirada</button>
+
+                </div>
+
+                <div id="delivery">
+
+                    <img src="Rectangle 39.png" class="retangulos">
+                    <img src="delivery.png" class="icones">
+                    <button onclick="mostrarDelivery()" class="BotoesSer">delivery</button>
+
+                </div>
+   
+   
+            </div>
+   
+            <div id="meio">
+
+                <div id="divComprar">
+                    
+                    <div id="divComprarTopo">
+
+                        <div id="comprarTopoEsquerda">
+
+                            <button onclick="" class="botaoDivComprar">Quero Comprar Moeda</button>
+
+                        </div>
+
+                        <div id="comprarTopoDireita">
+
+                            <button onclick="mostrarVenda()" class="botaoDivVender"">Quero Vender Moeda</button>
+
+                        </div>
+
+                    </div>
+
+                    <div id="divComprarAlto"> 
+
+                        
+                        <div id="divComprarAltoCima">
+                            
+                            <div id="divIconeAlto">
+
+                                <div id="imageSelectAlto">
+
+                                    <div id="bandeiraBranca">
+                                        <img src="ponto-de-interrogacao.png" id="imgBranca" class="iconesPaises">
+                                    </div>
+                                    <div id="bandeiraUSD">
+                                        <img src="estados-unidos.png" id="imgUSD" class="iconesPaises">
+                                    </div>
+                                    <div id="bandeiraBRL">
+                                        <img src="brasil.png" id="imgBRL" class="iconesPaises">
+                                    </div>
+                                    <div id="bandeiraISO">
+                                        <img src="argentina.png" id="imgBRL" class="iconesPaises">
+                                    </div>
+                                    <div id="bandeiraCLP">
+                                        <img src="chile.png" id="imgBRL" class="iconesPaises">
+                                    </div>
+                                    <div id="bandeiraGPB">
+                                        <img src="reino-unido.png" id="imgBRL" class="iconesPaises">
+                                    </div>
+
+
+                                </div>
+                                
+                                <div id="selectServicosAlto">
+                                
+                                    <select id="selectServicosA" class="selectServicos" onchange="mostrarbandeiraA()" onchange="calcularMoeda()">
+                                        <!-- <option value="0"></option> -->
+                                        <!-- <option value="0.208">USD</option> -->
+                                        <option value="1">BRL</option>
+                                        <!-- <option value="55.249">ARS</option> -->
+                                        <!-- <option value="169.492">CLP</option> -->
+                                        <!-- <option value="0.159">GPB</option> -->
+
+                                    </select>
+
+                                </div>
+                                
+                            </div>
+                            
+                            <div id="divValorAlto">
+                                
+                                <input placeholder="Você Compra" type="text" id="textComprarAlto" class="valorServicos" onchange="calcularMoeda() ">
+                                
+                            </div>
+
+                            <div id="iconeTroca">
+
+                                
+
+                            </div>
+                            
+                        </div>
+                        
+                        <div id="divComprarAltoBaixo">
+                            
+                            <div id="divIconeBaixo">
+
+                                <div id="imageSelectBaixo">
+
+                                    <div id="bandeiraBranca2">
+                                        <img src="ponto-de-interrogacao.png" id="imgBranca" class="iconesPaises">
+                                    </div>
+                                    <div id="bandeiraUSD2">
+                                        <img src="estados-unidos.png" id="imgUSD" class="iconesPaises">
+                                    </div>
+                                    <div id="bandeiraBRL2">
+                                        <img src="brasil.png" id="imgBRL" class="iconesPaises">
+                                    </div>
+                                    <div id="bandeiraISO2">
+                                        <img src="argentina.png" id="imgBRL" class="iconesPaises">
+                                    </div>
+                                    <div id="bandeiraCLP2">
+                                        <img src="chile.png" id="imgBRL" class="iconesPaises">
+                                    </div>
+                                    <div id="bandeiraGPB2">
+                                        <img src="reino-unido.png" id="imgBRL" class="iconesPaises">
+                                    </div>
+                                </div>
+                                
+                                <div id="selectServicosBaixo">
+                                
+                                    <select id="selectServicosB" class="selectServicos" onchange="mostrarbandeiraB()" onchange="calcularMoeda()">
+                                        <option value="0"></option>
+                                        <option value="0.208">USD</option>
+                                        <!-- <option value="1">BRL</option> -->
+                                        <option value="55.249">ARS</option>
+                                        <option value="169.492">CLP</option>
+                                        <option value="0.159">GPB</option>
+
+                                    </select>
+
+                                </div>
+                                
+                            </div>
+                            
+                            <div id="divValorBaixo">
+                                
+                                <input placeholder="Você Paga" type="text" id="textComprarBaixo" class="valorServicos" onchange="calcularMoeda()">
+                                
+                            </div>
+                            
+                        </div>
+                        
+                        
+                    </div>
+                    
+                    
+                    <div id="divComprarMeio">
+                        
+                        <button class="menuTaxas" id="MenuTaxas" onclick="calcularMoeda()"></button>
+                    </div>
+
+                    <div id="divComprarBaixo">
+
+                        <button onclick="navegarParaPaginaDeDestinoCom()" class="botaoComprar">COMPRAR</button>
+
+                    </div>
+
+    
+
+                </div>
+
+                <div id="divVender">
+
+                    <div id="divVenderTopo">
+
+                        <div id="venderTopoEsquerda">
+                
+                            <button onclick="mostrarCompra()" class="botaoDivVender1">Quero Comprar Moeda</button>
+                
+                        </div>
+                
+                        <div id="venderTopoDireita">
+                
+                            <button onclick="mostrarVenda()" class="botaoDivComprar1"">Quero Vender Moeda</button>
+                
+                        </div>
+                
+                    </div>
+                
+                    <div id="divVenderAlto"> 
+                
+                        
+                        <div id="divVenderAltoCima">
+                            
+                            <div id="divVenderIconeAlto">
+                
+                                <div id="imageVenderSelectAlto">
+                
+                                    <div id="bandeiraBranca3">
+                                        <img src="ponto-de-interrogacao.png" id="imgBranca" class="iconesPaises">
+                                    </div>
+                                    <div id="bandeiraUSD3">
+                                        <img src="estados-unidos.png" id="imgUSD" class="iconesPaises">
+                                    </div>
+                                    <div id="bandeiraBRL3">
+                                        <img src="brasil.png" id="imgBRL" class="iconesPaises">
+                                    </div>
+                                    <div id="bandeiraISO3">
+                                        <img src="argentina.png" id="imgBRL" class="iconesPaises">
+                                    </div>
+                                    <div id="bandeiraCLP3">
+                                        <img src="chile.png" id="imgBRL" class="iconesPaises">
+                                    </div>
+                                    <div id="bandeiraGPB3">
+                                        <img src="reino-unido.png" id="imgBRL" class="iconesPaises">
+                                    </div>
+
+                                </div>
+                                
+                                <div id="selectVenderServicosAlto">
+                                    <select id="selectServicosC" class="selectServicos" onchange="mostrarbandeiraC()">
+                                        <!-- <option value="0"></option> -->
+                                        <!-- <option value="0.208">USD</option> -->
+                                        <option value="1">BRL</option>
+                                        <!-- <option value="55.249">ARS</option> -->
+                                        <!-- <option value="169.492">CLP</option> -->
+                                        <!-- <option value="0.159">GPB</option> -->
+                                    </select>
+                                </div>
+                                
+                            </div>
+                            
+                            <div id="divVenderValorAlto">
+                                
+                                <input placeholder="Você Paga" type="text" id="textVenderAlto" class="valorServicos" onchange="calcularMoeda2()">
+                                
+                            </div>
+                
+                            <div id="venderIconeTroca">
+                
+                                
+                
+                            </div>
+                            
+                        </div>
+                        
+                        <div id="divVenderAltoBaixo">
+                            
+                            <div id="divVenderIconeBaixo">
+                
+                                <div id="venderImageSelectBaixo">
+                                    <div id="bandeiraBranca4">
+                                        <img src="ponto-de-interrogacao.png" id="imgBranca" class="iconesPaises">
+                                    </div>
+                                    <div id="bandeiraUSD4">
+                                        <img src="estados-unidos.png" id="imgUSD" class="iconesPaises">
+                                    </div>
+                                    <div id="bandeiraBRL4">
+                                        <img src="brasil.png" id="imgBRL" class="iconesPaises">
+                                    </div>
+                                    <div id="bandeiraISO4">
+                                        <img src="argentina.png" id="imgBRL" class="iconesPaises">
+                                    </div>
+                                    <div id="bandeiraCLP4">
+                                        <img src="chile.png" id="imgBRL" class="iconesPaises">
+                                    </div>
+                                    <div id="bandeiraGPB4">
+                                        <img src="reino-unido.png" id="imgBRL" class="iconesPaises">
+                                    </div>
+                                </div>
+                                
+                                <div id="selectVenderServicosBaixo">
+                                    <select id="selectServicosD" class="selectServicos" onchange="mostrarbandeiraD()">
+                                        <option value="0"></option>
+                                        <option value="0.208">USD</option>
+                                        <!-- <option value="1">BRL</option> -->
+                                        <option value="55.249">ARS</option>
+                                        <option value="169.492">CLP</option>
+                                        <option value="0.159">GPB</option>
+                                    </select>
+                                </div>
+                                
+                                
+                            </div>
+                            
+                            <div id="divVenderValorBaixo">
+                                
+                                <input placeholder="Você Compra" type="text" id="textVenderBaixo" class="valorServicos" onchange="calcularMoeda()">
+                                
+                            </div>
+                            
+                        </div>
+                        
+                        
+                    </div>
+                    
+                    
+                    <div id="divVenderMeio">
+                        
+                        <button class="menuTaxas" id="MenuTaxas2" onclick="calcularMoeda()"></button>
+                
+                    </div>
+                
+                    <div id="divVenderBaixo">
+                
+                        <button onclick="navegarParaPaginaDeDestinoCom()" class="botaoComprar">COMPRAR</button>
+                
+                    </div>
+
+                </div>
+                <div id="divRetirada">
+
+                    <h1 class="EmBreve">Em breve</h1>
+
+                </div>
+                <div id="divDelivery">
+
+                    <h1 class="EmBreve">Em breve</h1>
+
+                </div>
+                <div id="divCartao">
+
+                    <h1 class="EmBreve">Em breve</h1>
+
+                </div>
+                <div id="divLocalizacao">
+
+                    <h1 class="EmBreve">Em breve</h1>
+
+                </div>
+                <div id="divMoedas">
+
+                    <h1 class="EmBreve">Em breve</h1>
+
+                </div>
+   
+            </div>
+   
+            <div id="direita">
+
+                <div id="cartaoPrePago">
+
+                    <img src="Rectangle 39.png" class="retangulos">
+                    <button onclick="mostrarcartao()" class="BotoesSer">Cartão Pré-Pago</button>
+
+                </div>
+
+                <div id="localizacao">
+
+                    <img src="Rectangle 39.png" class="retangulos">
+                    <button onclick="mostrarLocalizacao()" class="BotoesSer">Localização</button>
+                    
+
+                </div>
+                
+                <div id="vender2">
+
+                    <img src="Rectangle 39.png" class="retangulos">
+                    <button onclick="mostrarVenda()" class="BotoesSer">Vender</button>
+
+                </div>
+
+                <div id="moedas2">
+
+                    <img src="Rectangle 39.png" class="retangulos">
+                    <button onclick="mostrarmoedas()" class="BotoesSer">Moeda</button>
+
+                </div>
+   
+            </div>
+        
+        </div>  
+        <script src="PaginaServicos.js"></script>
+    
+</body>       
