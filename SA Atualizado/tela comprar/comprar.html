@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="comprar.css">
+</head>
+<body>
+    <div id="conteiner">
+        <div id="cima">
+            <div id="logo">
+                <img src="WhatsApp Image 2023-06-22 at 20.32 4.png" alt="" id="cambioFloripa">
+            </div>
+            <div id="vazio">
+
+            </div>
+            <div id="servicos">
+                <button id="home">Home</button>
+                <button id="moedas">Moedas</button>
+                <button id="cadastro">Cadastro</button>
+            </div>
+            <div id="vazioDireita">
+
+            </div>
+        </div>
+        <div id="linha">
+
+        </div>
+        <div id="interacao">
+            <div id="esquerda">
+               <div id="esquerda-cima">
+                    <label id="forma-entrega">Forma de entrega</label>
+               </div>
+               <div id="esquerda-meio">
+                    <div id="div-label-entrega">
+                        <label id="label-entrega">Como deseja receber sua entrega?</label>
+                    </div>
+                    <div id="div-retirada">
+                        <div id="botoesRetirada">
+                            <button onclick="MostrarLojas()" id="retirada">Retirada na loja</button>
+                            <button onclick="Endereco()" id="delivery">Delivery</button>
+                        </div>
+                        <div id="div-lojas">
+                            <div class="inputs">
+                                <div id="esquerda-input">
+                                    
+                                </div>
+                                <div id="direita-input">
+                                    <div id="esquerda-loja1">
+                                        <input type="radio" name="rdbtn" class="inpt">
+                                    </div>
+                                    <div class="linha">
+
+                                    </div>
+                                    
+                                    <div id="esquerda-loja2">
+                                        <input type="radio" name="rdbtn" class="inpt">
+                                    </div>
+                                    <div class="linha">
+
+                                    </div>
+                                    <div id="esquerda-loja3">
+                                        <input type="radio" name="rdbtn" class="inpt">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="lojas">
+                                <div id="loja1">
+                                    <div class="lojaCima">
+                                          <label class="label-maior">loja 1</label>
+                                    </div>
+                                    <div class="lojaMeio">
+                                        <label class="label-menor">Av mauro ramos-555</label>
+                                    </div>
+                                    <div class="lojaBaixo">
+                                        <label class="label-menor">Centro</label>
+                                    </div>
+                                </div>
+                                <div class="linha">
+
+                                </div>
+                                <div id="loja2">
+                                    <div class="lojaCima">
+                                        <label class="label-maior">loja 2</label>
+                                    </div>
+                                    <div class="lojaMeio">
+                                        <label class="label-menor">Av madre bevenuta-2924</label>
+                                    </div>
+                                    <div class="lojaBaixo">
+                                        <label class="label-menor">Santo monica</label>
+                                    </div> 
+                                </div>
+                                <div class="linha">
+
+                                </div>
+                                <div id="loja3">
+                                    <div class="lojaCima">
+                                        <label class="label-maior">loja 3</label>
+                                    </div>
+                                    <div class="lojaMeio">
+                                        <label class="label-menor">Av madre bevenuta-2924</label>
+                                    </div>
+                                    <div class="lojaBaixo">
+                                        <label class="label-menor">Santo monica</label>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="vazio-loja">
+
+                            </div>
+                        </div>
+                        <div id="div-finalizar">
+
+                        </div>
+                    </div>  
+                    <div id="div-delivery">
+                        <div class="botoes">
+                            <div id="botoesRetirada">
+                                <button onclick="MostrarLojas()" id="retirada">Retirada na loja</button>
+                                <button onclick="Endereco()" id="delivery">Delivery</button>
+                            </div>
+                            <div id="esquerda-endereco">
+                                <label for="cep">cep</label>
+                                <input type="text" id="cep">
+                                <label for="endereco">endereço</label>
+                                <input type="text" id="endereco">
+                                <label for="numero">Número</label>
+                            <input type="text" id="numero">
+                            </div>
+                            <div id="direita-endereco">
+                                <label for="bairro">Bairro</label>
+                                <input type="text" id="bairro">
+                                <label for="complemento">complemento</label>
+                                <input type="text" id="complemento">
+                            </div>
+                            
+                            <div id="div-finalizar">
+                                <button onclick="Finalizar()">Finalizar</button>
+                            </div>
+                        </div>
+                    </div>
+               </div>
+            </div>
+            <div id="direita">
+                <div id="direita-cima">
+
+                </div>
+                <div id="direita-meio">
+                    <div id="direita-interacao">
+                        <div id="tipo-operacao">
+                            <label id="texto-operacao">Tipo de operação:</label>
+                        </div>
+                        <div id="pagar">
+                            <label class="labels">Valor a pagar:R$</label>
+                        </div>
+                        <div id="receber">
+                            <label class="labels">Valor a receber:R$</label>
+                        </div>
+                        <div id="casa">
+                            <label class="labels">Total da casa:R$</label>
+                        </div>
+                        <div id="iof">
+                            <label class="labels">IOF:R$</label>
+                        </div>
+                        <div id="vazio-interacao">
+
+                        </div>
+                    </div>
+                    <div id="direita-vazio">
+
+                    </div>
+                </div>
+                <div id="direita-baixo">
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
