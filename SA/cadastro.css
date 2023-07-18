@@ -1,0 +1,478 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@600&display=swap');
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: "Inter",sans-serif;
+}
+
+html{
+    height: 100%;
+}
+body{
+    background-color: brown;
+    height: 100%;
+    margin: 0px;
+}
+
+#conteiner{
+    height: 100%;
+    width: 100%;
+    background-color: yellow;
+}
+
+#cima{
+    height: 12.8%;
+    width: 100%;
+    background-color: forestgreen;
+    display: flex;
+}
+
+
+#logo{
+    height: 100%;
+    width: 15%;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    display: flex;
+}
+
+#vazio{
+    height: 100%;
+    width: 40%;
+    background-color: white;
+}
+
+#servicos{
+    height: 100%;
+    width: 30%;
+    background-color: white;
+    align-items: center;
+    justify-content: space-evenly;
+    display: flex;
+}
+
+#home{
+    height: 45px;
+    width: 90px;
+    border: none;
+    background: none;
+    font-size: x-large;
+    cursor: pointer;
+}
+
+#moedas{
+    height: 45px;
+    width: 100px;
+    border: none;
+    background: none;
+    font-size: x-large;
+    cursor: pointer;
+}
+
+#cadastro{
+    height: 45px;
+    width: 120px;
+    border: none;
+    background: none;
+    font-size: x-large;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+#vazioDireita{
+    height: 100%;
+    width: 15%;
+    background-color: white;
+}
+
+#linha{
+    height: 0.2%;
+    width: 100%;
+    background-color: black;
+}
+
+#vazio-cima{
+    height: 8%;
+    width: 100%;
+    background-color: #CCE4CC;
+}
+
+
+#meio{
+    height: 72%;
+    width: 100%;
+    background-color: blue;
+    display: flex;
+}
+
+#esquerda{
+    height: 100%;
+    width: 15%;
+    background-color: #CCE4CC;
+}
+
+#interacao{
+    height: 100%;
+    width: 70%;
+    background-color: white;
+    display: flex;
+}
+
+.labelCinza{
+    color: #9A9A9A;
+    margin-left: 10%;
+}
+
+#interacao-esquerda{
+    height: 100%;
+    width: 33%;
+    background-color: blue;
+}
+
+#dados-esquerda{
+    display: flex;
+    height: 7%;
+    width: 100%;
+}
+
+#div-dados{
+    display: flex;
+    height: 25%;
+    width: 100%;
+    background-color: white;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+#titulo{
+    font-size: 25px;
+    color: #9A9A9A;
+    margin-left: 10%;
+}
+
+
+#div-nome{
+    display: flex;
+    background-color: white;
+    height: 25%;
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#nome{
+    width: 80%;
+    height: 60px;
+    font-size: 15px;
+    border-left: 0px;
+    border-right: 0px;
+    border-top: 0px;
+    margin-left: 10%;
+}
+
+#nome:focus{
+    outline: none;
+}
+
+#div-cpf{
+    display: flex;
+    height: 25%;
+    width: 100%;
+    background-color: white;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#cpf{
+    width: 80%;
+    height: 60px;
+    font-size: 15px;
+    border-left: 0px;
+    border-right: 0px;
+    border-top: 0px;
+    margin-left: 10%;
+}
+
+#cpf:focus{
+    outline: none;
+}
+
+
+#div-data{
+    display: flex;
+    background-color: white;
+    height: 25%;
+    width: 100%;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+#data{
+    width: 30%;
+    height: 30px;
+    font-size: 16px;
+    border-left: 0px;
+    border-right: 0px;
+    border-top: 0px;
+    margin-left: 15px;
+    color: #9A9A9A;
+}
+
+#data:focus{
+    outline: none;
+}
+
+#dataN{
+    margin-top: 5px;
+}
+
+#interacao-meio{
+    height: 100%;
+    width: 34%;
+    background-color: #356E34;
+}
+
+#div-nacionalidade{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: white;
+    height: 25%;
+    width: 100%;
+}
+
+#nacionalidade{
+    width: 80%;
+    height: 60px;
+    font-size: 15px;
+    border-left: 0px;
+    border-right: 0px;
+    border-top: 0px;
+    margin-left: 10%;
+}
+
+#nacionalidade:focus{
+    outline: none;
+}
+
+#div-telefone{
+    display: flex;
+    background-color: white;
+    height: 25%;
+    width: 100%;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+#telefone{
+    width: 80%;
+    height: 60px;
+    font-size: 15px;
+    border-left: 0px;
+    border-right: 0px;
+    border-top: 0px;
+    margin-left: 10%;
+}
+
+#telefone:focus{
+    outline: none;
+}
+
+
+#div-endereco{
+    display: flex;
+    height: 25%;
+    width: 100%;
+    background-color: white;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#endereco{
+    width: 80%;
+    height: 60px;
+    font-size: 15px;
+    border-left: 0px;
+    border-right: 0px;
+    border-top: 0px;
+    margin-left: 10%;
+}
+
+#endereco:focus{
+    outline: none;
+}
+
+#div-possui{
+    display: flex;
+    height: 25%;
+    width: 100%;
+    background-color: white;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+#possui{
+    font-size: 20px
+}
+
+#login{
+    background-color: transparent;
+    border-color: transparent;
+    cursor: pointer;
+    width: 100px;
+    height: 40px;
+    font-size: 17px;
+    color: blue;
+    margin-right: 10%;
+    margin-top: 20px;
+    margin-left: 5px;
+}
+
+#interacao-direita{
+    height: 100%;
+    width: 33%;
+    background-color: pink;
+    
+}
+
+.labelPreta{
+    color: black;
+    margin-left: 10%;
+}
+
+#div-email{
+    display: flex;
+    height: 25%;
+    width: 100%;
+    background-color: white;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#email{
+    width: 80%;
+    height: 60px;
+    font-size: 15px;
+    border-left: 0px;
+    border-right: 0px;
+    border-top: 0px;
+    margin-left: 10%;
+}
+
+#email:focus{
+    outline: none;
+}
+
+#div-senha{
+    display: flex;
+    height: 25%;
+    width: 100%;
+    background-color: white;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#senha{
+    width: 80%;
+    height: 60px;
+    font-size: 15px;
+    border-left: 0px;
+    border-right: 0px;
+    border-top: 0px;
+    margin-left: 10%;
+}
+
+#senha:focus{
+    outline: none;
+}
+
+#email{
+    width: 80%;
+    height: 60px;
+    font-size: 15px;
+    border-left: 0px;
+    border-right: 0px;
+    border-top: 0px;
+}
+
+#email:focus{
+    outline: none;
+}
+
+#div-confirmar{
+    display: flex;
+    height: 25%;
+    width: 100%;
+    background-color: white;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#confirmarSenha{
+    width: 80%;
+    height: 60px;
+    font-size: 15px;
+    border-left: 0px;
+    border-right: 0px;
+    border-top: 0px;
+    margin-left: 10%;
+}
+
+#confirmarSenha:focus{
+    outline: none;
+}
+
+#div-botao{
+    height: 25%;
+    width: 100%;
+    background-color: white; 
+}
+
+#senhaDiferente{
+    display: flex;
+    background-color: white;
+    justify-content: flex-end;
+    padding-right: 10%;
+    color: red;
+}
+
+#botao{
+    display: flex;
+    height: 80%;
+    width: 100%;
+    background-color: white;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+#botao-cadastrar{
+    height: 40%;
+    width: 40%;
+    font-size: 150%;
+    color: white;
+    background-color: #356E34;
+    border: none;
+    cursor: pointer;
+    margin-right: 10%;
+    margin-top: 20px;
+}
+
+#botao-cadastrar:hover{
+    height: 45%;
+    width: 45%;
+    transition: 1s;
+}
+
+#direita{
+    height: 100%;
+    width: 15%;
+    background-color: #CCE4CC;
+}
+
+#vazio-baixo{
+    height: 7%;
+    width: 100%;
+    background-color: #CCE4CC;
+}

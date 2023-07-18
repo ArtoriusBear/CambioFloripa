@@ -1,0 +1,267 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@600&display=swap');
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: "Inter",sans-serif;
+}
+
+html{
+    height: 100%;
+}
+body{
+    background-color: brown;
+    height: 100%;
+    margin: 0px;
+}
+
+#conteiner{
+    height: 100%;
+    width: 100%;
+    background-color: yellow;
+}
+
+#cima{
+    background-color: white;
+    width: 100%;
+    height: 12.8%;
+    display: flex;
+}
+
+#logo{
+    height: 100%;
+    width: 15%;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    display: flex;
+}
+
+#cambioFloripa{
+    height: 38px;
+    width: 214;
+}
+
+#vazio{
+    height: 100%;
+    width: 40%;
+    background-color: white;
+}
+
+#servicos{
+    height: 100%;
+    width: 30%;
+    background-color: white;
+    align-items: center;
+    justify-content: space-evenly;
+    display: flex;
+}
+
+#home{
+    height: 45px;
+    width: 90px;
+    border: none;
+    background: none;
+    font-size: x-large;
+    cursor: pointer;
+}
+
+#moedas{
+    height: 45px;
+    width: 100px;
+    border: none;
+    background: none;
+    font-size: x-large;
+    cursor: pointer;
+}
+
+#cadastro{
+    height: 45px;
+    width: 120px;
+    border: none;
+    background: none;
+    font-size: x-large;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+#vazioDireita{
+    height: 100%;
+    width: 15%;
+    background-color: white;
+}
+
+#linha{
+    background-color: black;
+    width: 100%;
+    height: 0.2%;
+}
+
+#cima-baixo{
+    height: 10%;
+    width: 100%;
+    background-color: #CCE4CC;
+}
+
+#meio{
+    background-color: #CCE4CC;
+    width: 100%;
+    height: 67%;
+    display: flex;
+}
+
+#esquerda{
+    background-color: #CCE4CC;
+    height: 100%;
+    width: 30%;
+}
+
+#interacao{
+    background-color: #CCE4CC;
+    height: 100%;
+    width: 40%;
+}
+
+#texto{
+    background-color: white;
+    height: 20%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-left: 5%;
+}
+
+#sign-up{
+    color: #9A9A9A;
+    font-size: 40px;
+}
+
+#cpf{
+    display: flex;
+    background-color: white;
+    height: 20%;
+    width: 100%;
+    padding-left: 5%;
+    padding-right: 5%;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+#cpf-texto{
+    color: #9A9A9A;
+    font-size: 40px;
+}
+
+#inpt-cpf{
+    width: 90%;
+    height: 60px;
+    font-size: 25px;
+    border-left: 0px;
+    border-right: 0px;
+    border-top: 0px;
+}
+
+#inpt-cpf:focus{
+    outline: none;
+}
+
+#senha{
+    display: flex;
+    background-color: white;
+    height: 20%;
+    width: 100%; 
+    padding-left: 5%;
+    padding-right: 5%;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+#senha-texto{
+    color: #9A9A9A;
+    font-size: 40px;
+}
+
+#inpt-senha{
+    width: 90%;
+    height: 60px;
+    font-size: 25px;
+    border-left: 0px;
+    border-right: 0px;
+    border-top: 0px;
+}
+
+#inpt-senha:focus{
+    outline: none;
+}
+
+#botao-login{
+    background-color: white;
+    height: 20%;
+    width: 100%;
+}
+
+#botaoo{
+    display: flex;
+    background-color: white;
+    height: 80%;
+    width: 100%;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+#botao{
+    background-color: #356E34;
+    color: white;
+    font-size: 30px;
+    border: 0px;
+    height: 80px;
+    width: 200px;
+    cursor: pointer;
+    margin-top: 5px;
+}
+
+#aparecer{
+    display: flex;
+    justify-content: center;
+    color: red;
+}
+
+#div-possui{
+    display: flex;
+    background-color: white;
+    height: 20%;
+    width: 100%;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+#possui{
+    background-color: transparent;
+    border-color: transparent;
+    cursor: pointer;
+    width: 110px;
+    height: 40px;
+    font-size: 17px;
+    color: blue;
+    margin-right: 10%;
+    margin-left: 5px;
+}
+
+#possui-label{
+    margin-left: 90px;
+}
+
+#direita{
+    background-color: #CCE4CC;
+    height: 100%;
+    width: 30%;
+}
+
+
+#baixo{
+    height: 10%;
+    width: 100%;
+    background-color: #CCE4CC;
+} 

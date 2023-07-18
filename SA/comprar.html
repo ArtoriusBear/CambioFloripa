@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="comprar.css">
+</head>
+<body>
+    <div id="conteiner">
+        <div id="cima">
+            <div id="logo">
+                <img src="WhatsApp Image 2023-06-22 at 20.32 4.png" alt="" id="cambioFloripa">
+            </div>
+            <div id="vazio">
+
+            </div>
+            <div id="servicos">
+                <button onclick="navegarHome()" id="home">Home</button>
+                <button onclick="navegarMoedas()" id="moedas">Moedas</button>
+                <button onclick="navegarCadastro()" id="cadastro">Cadastro</button>
+            </div>
+            <div id="vazioDireita">
+
+            </div>
+        </div>
+        <div id="linha">
+
+        </div>
+        <div id="interacao">
+            <div id="esquerda">
+               <div id="esquerda-cima">
+                    <label id="forma-entrega">Forma de entrega</label>
+               </div>
+               <div id="esquerda-meio">
+                    <div id="div-label-entrega">
+                        <label id="label-entrega">Como deseja receber sua entrega?</label>
+                    </div>
+                    <div id="div-retirada">
+                        <div id="botoesRetirada">
+                            <button onclick="MostrarLojas()" id="retirada">Retirada na loja</button>
+                            <button onclick="Endereco()" id="delivery">Delivery</button>
+                        </div>
+                        <div id="div-lojas">
+                            <div class="inputs">
+                                <div id="esquerda-input">
+                                    
+                                </div>
+                                <div id="direita-input">
+                                    <div id="esquerda-loja1">
+                                        <input type="radio" name="rdbtn" class="inpt">
+                                    </div>
+                                    <div class="linha">
+
+                                    </div>
+                                    
+                                    <div id="esquerda-loja2">
+                                        <input type="radio" name="rdbtn" class="inpt">
+                                    </div>
+                                    <div class="linha">
+
+                                    </div>
+                                    <div id="esquerda-loja3">
+                                        <input type="radio" name="rdbtn" class="inpt">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="lojas">
+                                <div id="loja1">
+                                    <div class="lojaCima">
+                                          <label class="label-maior">loja 1</label>
+                                    </div>
+                                    <div class="lojaMeio">
+                                        <label class="label-menor">Av mauro ramos-732</label>
+                                    </div>
+                                    <div class="lojaBaixo">
+                                        <label class="label-menor">Centro</label>
+                                    </div>
+                                </div>
+                                <div class="linha">
+
+                                </div>
+                                <div id="loja2">
+                                    <div class="lojaCima">
+                                        <label class="label-maior">loja 2</label>
+                                    </div>
+                                    <div class="lojaMeio">
+                                        <label class="label-menor">Av pequeno principe-407</label>
+                                    </div>
+                                    <div class="lojaBaixo">
+                                        <label class="label-menor">Campeche</label>
+                                    </div> 
+                                </div>
+                                <div class="linha">
+
+                                </div>
+                                <div id="loja3">
+                                    <div class="lojaCima">
+                                        <label class="label-maior">loja 3</label>
+                                    </div>
+                                    <div class="lojaMeio">
+                                        <label class="label-menor">Av madre bevenuta-213</label>
+                                    </div>
+                                    <div class="lojaBaixo">
+                                        <label class="label-menor">Santo monica</label>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="vazio-loja">
+                                  
+                            </div>
+                        </div>
+                    </div>  
+                    <div id="div-delivery">
+                        <div class="botoes">
+                            <div id="botoesRetirada">
+                                <button onclick="MostrarLojas()" id="retirada">Retirada na loja</button>
+                                <button onclick="Endereco()" id="delivery">Delivery</button>
+                            </div>
+                        </div>
+                    </div>
+               </div>
+               <div id="esquerda-baixo">
+                
+               </div>
+            </div>
+            <div id="direita">
+                <div id="direita-cima">
+
+                </div>
+                <div id="direita-meio">
+                    <div id="direita-interacao">
+                        <div id="tipo-operacao">
+                            <label id="texto-operacao">Tipo de operação:</label>
+                        </div>
+                        <div id="pagar">
+                            <label class="labels">Valor a pagar:R$</label>
+                        </div>
+                        <div id="receber">
+                            <label class="labels">Valor a receber:R$</label>
+                        </div>
+                        <div id="casa">
+                            <label class="labels">Total da casa:R$</label>
+                        </div>
+                        <div id="iof">
+                            <label class="labels">IOF:R$</label>
+                        </div>
+                        <div id="vazio-interacao">
+
+                        </div>
+                    </div>
+                    <div id="direita-vazio">
+
+                    </div>
+                </div>
+                <div id="direita-baixo">
+                    <button onclick="Finalizar()" id="finalizar">finalizar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="comprar.js"></script>
+</body>
+</html>
